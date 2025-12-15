@@ -156,6 +156,7 @@ export const fn = (_, params) => {
                 value,
               },
             ],
+            computedStyle: null,
           };
 
           Object.defineProperty(titleTag, 'parentNode', {

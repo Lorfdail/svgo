@@ -83,6 +83,7 @@ export const fn = (root) => {
               name: 'defs',
               attributes: {},
               children: [],
+              computedStyle: null,
             };
           }
 
@@ -95,6 +96,7 @@ export const fn = (root) => {
                 name: 'path',
                 attributes: {},
                 children: [],
+                computedStyle: null,
               };
 
               for (const attr of ['fill', 'stroke', 'd']) {

@@ -191,6 +191,7 @@ export type XastElement = {
   name: string;
   attributes: Record<string, string>;
   children: XastChild[];
+  computedStyle: ComputedStyles | null;
 };
 
 export type XastChild =
@@ -204,6 +205,7 @@ export type XastChild =
 export type XastRoot = {
   type: 'root';
   children: XastChild[];
+  computedStyle: ComputedStyles | null;
 };
 
 export type XastParent = XastRoot | XastElement;
